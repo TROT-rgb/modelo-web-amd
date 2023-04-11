@@ -1,0 +1,12 @@
+.overlay-comp2{
+    background-image: url("../../Components/Images/WallPaper/Variantes/1920x1080/Fondo\ ROJO\ oscuro\ 1920x1080.png");
+    background-position: 0px;
+    background-size: cover;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+

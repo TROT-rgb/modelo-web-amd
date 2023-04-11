@@ -1,0 +1,131 @@
+.reseller-case{
+    width: 90%;
+    height: auto;
+    background-color: black;
+    background-image: url("../../Images/WallPaper/Variantes/1920x1080/Fondo\ ROJO\ oscuro\ 1920x1080.png");
+    margin-bottom: 50px;
+    border: 2px solid #CD001A;
+    transition: all 500ms ease-in-out;
+
+}
+.regions-nav{
+    background-color: rgb(34, 34, 34);
+    background-image: url("../../Images/WallPaper/1920x1080/FondoNegro1920x1080.png");
+    border-bottom: 2px solid #CD001A;
+    border-top: 2px solid #CD001A;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    padding-top: 15px; 
+    padding-bottom: 15px; 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: all 500ms ease-in-out;
+
+}
+.regions-nav p{
+    font-size: 25px;
+}
+.regions-nav button{
+    height: auto;
+    width: 110px;
+    background: none;
+    border: none;
+    font-family: 'Bebas Neue';
+    font-size: 20px;
+    margin: 7px;
+    transition: all 500ms ease-in-out;
+    color: rgb(180, 180, 180);
+}
+.regions-nav button:hover,
+.regions-nav button:active{
+    border-bottom: 2px solid #CD001A;
+    color: #CD001A;
+    transition: all 500ms ease-in-out;
+
+}
+.regions-nav .activo{
+    border-bottom: 2px solid #CD001A;
+color: #CD001A;
+}
+
+
+
+.resellers-group {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    margin: 50px;
+    flex-wrap: wrap;
+    transition: all 500ms ease-in-out;
+    flex-direction: column;
+    align-content: center;
+}
+.product-type-case{
+    padding: 10px;
+}
+
+.product-type-case button{
+    color: #CD001A;
+    background-color: rgb(5, 5, 5);
+    font-family: 'Klavika';
+    font-size: 20px;
+    border: 1px solid #CD001A;
+    margin: 5px;
+    padding: 15px;
+    border-radius: 12px;
+    transition: all 500ms ease-in-out;
+
+}
+
+.product-type-case button:hover{
+    color:  rgb(5, 5, 5);
+    background-color:#CD001A;
+    border: 1px solid rgb(5, 5, 5);
+    transition: all 500ms ease-in-out;
+}
+
+.product-type-case .activo{
+    color:  rgb(5, 5, 5);
+    background-color:#CD001A;
+    border: 1px solid rgb(5, 5, 5);
+}
+
+.resellers-all-content{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    margin: 50px;
+    flex-wrap: wrap;
+    transition: all 500ms ease-in-out;
+}
+
+.reseller-cube{
+    height: auto;
+    width: fit-content;
+    padding: 1.6em 1.6em;
+    margin: 6px;
+    border: 1px solid #CD001A;
+    background-color: rgb(5, 5, 5);
+    justify-content: center;
+    align-items: center;
+    transition: all 500ms ease-in-out;
+
+}
+.reseller-cube p{
+    color: #fafafa;
+}
+
+.reseller-cube img{
+    height: 30px;
+    width: auto;
+    margin: 4px;
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(106%)
+    contrast(99%);    
+}
+.reseller-cube a{
+    display: inline-block;
+}

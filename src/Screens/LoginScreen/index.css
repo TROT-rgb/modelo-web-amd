@@ -1,0 +1,101 @@
+.overlay-login{
+    background-image: url("../../Components/Images/WallPaper/1920x1080/FondoBlanco1920x1080.png");
+    background-position: 0px;
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 50px 0 50px 0;
+}
+.overlog-lay{
+    width: 500px;
+    align-content: center;
+}
+.cube-desing2{
+    height: 100%;
+    width: 100%;
+    background-image: url("../../Components/Images/WallPaper/Variostamaños/1000x540/Fondo\ Negro\ 540x1000.png");
+    border: 2px solid #fa0101;
+    text-align: -webkit-center;
+
+}
+
+.overlog-lay .title-img-logo{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.login-lay{
+    align-self: center;
+    text-align: center;
+}
+.login-lay p{
+    margin: 0;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
+    font-weight: 500;
+    color: #fafafa;
+}
+
+.textbox-desing1{
+    background-image: url("../../Components/Images/WallPaper/Variostamaños/950x50/Fondo\ Blanco\ 950x50.png");
+    background-position: left;
+    height: 30px;
+    width: 230px;
+    border: none;
+    color: black;
+    font: size 15px;;
+}
+
+.textbox-desing option{
+    color: black;
+}
+.overlog-lay .btn {
+    user-select: none;
+    border: medium none;
+    border-radius: 5px;
+    color: #1c1121;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 1;
+    margin-bottom: 0;
+    padding: 20px 44px;
+    text-align: center;
+    text-transform: uppercase;
+    touch-action: manipulation;
+    transition: all 0.3s ease 0s;
+    vertical-align: middle;
+    white-space: nowrap;
+    position: relative;
+    z-index: 0;
+    background: #fa0101;
+}
+ .btn::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    background-image: url("../../Components/Images/btn_overlay.png");
+    width: 100%;
+    height: 55px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    z-index: -1;
+}
+.overlog-lay .buttom-case{
+    margin: 24px 0;
+
+align-self: center;}
+.text-register{
+    margin-top: 70px;
+    align-self: center;
+    text-align: center;
+    font-weight: 550;
+    font-size: 30px;
+}

@@ -1,0 +1,51 @@
+.textarea-design {
+    background-image: url("../../Components/Images/WallPaper/Variostamaños/950x50/Fondo\ Blanco\ 950x50.png");
+    background-position: center;
+    height: 250px;
+    width: 400px;
+    border: none;
+    color: black;
+    font: size 15px;
+    outline: none;
+    resize: none
+}
+.textarea-design1 {
+    background-image: url("../../Components/Images/WallPaper/Variostamaños/800x600/Fondo\ Blanco\ 800x600.png");
+    background-position: center;
+    height: 250px;
+    width: 400px;
+    border: none;
+    color: black;
+    font: size 15px;
+    outline: none;
+    resize: none
+}
+
+.button-image {
+    width: 400px;
+    height: 250px;
+    background-color: #fa0101;
+    outline: none;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 0 12px 1px #808080;
+    margin-bottom: 12px;
+    cursor: pointer;
+    transition: all .3s ease-in-out;   
+    overflow: hidden; 
+}
+.button-image:hover {
+    background-color: #CD001A;
+    box-shadow: 0 0 12px 1px #fa0101;
+}
+.title-img-admin{
+    display: flex;
+    height: 110px;
+    width: auto;
+}
+
+.img-news {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}

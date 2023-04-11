@@ -1,0 +1,120 @@
+/* Caja contenedora de los links/logo/email */
+.contact-footer {
+  justify-content: space-evenly;
+  height: 110px;
+  padding: 2px 20px 2px 50px;
+  background: #151515;
+  border-top: 3px solid #fa0101;
+}
+.contact-footer img{
+  width: 120px;
+}
+.contact-footer p {
+  align-self: center;
+  margin: 10px;
+  color: rgb(188, 188, 188);
+}
+.contact-footer a {
+  color: rgb(188, 188, 188);
+  -webkit-transition: color 0.5s;
+  -moz-transition: color 0.5s;
+  -ms-transition: color 0.5s;
+  -o-transition: color 0.5s;
+  transition: color 0.5s;
+}
+.contact-footer a:hover,
+.contact-footer a::after {
+  color: #fa0101;
+} 
+
+/*Cajas del footer*/
+.footer-container{
+  display: flex;
+  flex-direction: column;
+}
+.footer-links{
+  display: flex;
+  flex-direction: row;
+}
+
+/*Estilos de las listas*/
+.responsive-li {
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 320px;
+}
+.responsive-ul a{
+  align-self: center;
+  margin: 0 30px;
+}
+
+
+/*Seccion de copy*/
+.copyright-wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+  background: #151515;
+}
+.copyright-wrap p {
+  margin-bottom: 0;
+  font-size: 17px;
+  color: #90949c;
+}
+.copyright-wrap span {
+  color: #fa0101;
+}
+.copy {
+  padding-left: 20px;
+}
+.powered {
+  padding-right: 20px;
+}
+
+@media screen and (max-width: 850px) {
+  .responsive-design {
+    flex-direction: column;
+    width: 100%;
+  }
+  .logo
+  {
+    display: none;
+  }
+  .contact-footer {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    padding: 0 5px 12px 5px;
+  }
+  .contact-footer a {
+    align-items: center;
+  }
+  .footer-container{
+    margin: 0;
+  }
+  .responsive-li {
+    max-width: 100%;
+    margin-top: 0;
+  }
+  
+  .copyright-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .copy {
+    padding-left: 0;
+  }
+  .powered {
+    padding-right: 0;
+  }
+}

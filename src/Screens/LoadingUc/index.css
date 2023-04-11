@@ -1,0 +1,13 @@
+.preloader{
+    height: 100vh;
+    width: 100vw;
+    background-image: url('../../Components/Images/WallPaper/1920x1080/FondoBlanco1920x1080.png');
+    align-content: center;
+    justify-content: center;
+    display: flex;
+}
+.preloader img{
+    justify-self: center;
+    display: flex;
+    width: 200px;
+}

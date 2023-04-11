@@ -1,0 +1,124 @@
+.overlay-signin{
+    background-image: url("../../Components/Images/WallPaper/1920x1080/FondoBlanco1920x1080.png");
+    background-position: 0px;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0 50px 0;
+}
+.oversign-lay{
+    width: 1000px;
+    align-content: center;
+}
+.cube-desing1{
+    height: 100%;
+    width: 100%;
+    background-image: url("../../Components/Images/WallPaper/1080x1920/Fondo\ Negro\ 1080x1920.png");
+    border: 2px solid #fa0101;
+}
+
+
+
+.signin-lay{
+    padding-left: 16.5%;
+}
+.signin-lay p{
+    margin: 0;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
+    font-weight: 500;
+    color: #fafafa;
+}
+
+.textbox-desing{
+    background-image: url("../../Components/Images/WallPaper/Variostamaños/950x50/Fondo\ Blanco\ 950x50.png");
+    background-position: center;
+    height: 30px;
+    width: 230px;
+    border: none;
+    color: black;
+    font: size 15px;
+    outline: none;
+}
+
+.textbox-desing option{
+    color: black;
+}
+.btn {
+    user-select: none;
+    border: medium none;
+    border-radius: 5px;
+    color: #000;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 1;
+    margin-bottom: 0;
+    padding: 20px 44px;
+    text-align: center;
+    text-transform: uppercase;
+    touch-action: manipulation;
+    transition: all 0.4s ease 0s;
+    vertical-align: middle;
+    white-space: nowrap;
+    position: relative;
+    z-index: 0;
+    background: #fa0101;
+    border: none;
+    outline: none;
+}
+
+.btn:hover {
+    color: #f0f0f0;
+    box-shadow: 0 0 12px 0 #fa0101;
+}
+
+.oversign-lay .btn::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    background-image: url("../../Components/Images/btn_overlay.png");
+    width: 100%;
+    height: 55px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    z-index: -1;
+}
+
+.oversign-lay .buttom-case{
+    margin-top: 20px;
+    align-self: center;
+    margin-bottom: 40px;
+}
+
+.card-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.card-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 25%;
+}
+
+@media screen and (max-width: 620px) {
+    .signin-lay{
+        padding: 0;
+        flex-direction: column;
+    }
+    .card-2 {
+        margin: 0;
+    }
+}

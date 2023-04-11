@@ -1,0 +1,149 @@
+.overlay-user{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-flow: wrap;
+}
+.profile-case{
+    margin: 40px;
+    padding-left: 50px;
+}
+.profile-pic-case{
+    height: 300px;
+    width: 300px;
+    border: 2px solid #CD001A;
+    overflow: hidden;
+}
+.profile-pic-case img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.profile-texts{
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.profile-texts p{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.logo-profile{
+    width: 60px;
+    align-self: center;
+}
+.vertical-separator{
+    margin-right: 3px;
+    width: 2px;
+    background-color: #D22730;
+}
+
+.overlay-user .btn {
+    user-select: none;
+    border: medium none;
+    border-radius: 5px;
+    color: #1c1121;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 1;
+    margin-bottom: 0;
+    padding: 20px 44px;
+    text-align: center;
+    text-transform: uppercase;
+    touch-action: manipulation;
+    transition: all 0.3s ease 0s;
+    vertical-align: middle;
+    white-space: nowrap;
+    position: relative;
+    z-index: 0;
+    background: #fa0101;
+}
+.overlay-user .btn::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    background-image: url("../../Images/btn_overlay.png");
+    width: 100%;
+    height: 55px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    z-index: -1;
+}
+.overlay-user .buttom-case{
+    margin: 24px 0 24px 0;
+
+align-self: center;}
+.text-register{
+    margin-top: 70px;
+    align-self: center;
+    text-align: center;
+    font-weight: 550;
+    font-size: 30px;
+}
+
+.editButtomimg{
+    height: 20px;
+    width: auto;
+	filter: invert(13%) sepia(97%) saturate(3910%) hue-rotate(344deg) brightness(86%) contrast(114%);
+}
+.editButtom{
+    color: brown;
+    height: 32px;
+    margin: 12px;
+    background-color: transparent;
+    border: 1px solid #fa0101;
+    cursor: pointer;
+
+}
+
+.image-responsive {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 40px 60px; 
+}
+
+.log-foot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.backk {
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/src/Components/Images/WallPaper/1080x1920/Fondo\ Negro\ 1080x1920.png);
+    border: 2px solid #fa0101;
+}
+@media screen and (max-width: 620px) {
+    .image-responsive {
+        flex-direction: column;
+        margin: 0 0 40px 0;
+    }
+    .logo-profile{
+        display: none;
+    }
+    .vertical-separator {
+        display: none;
+    }
+    .profile-case{
+        margin: 40px;
+        padding-left: 50px;
+    }
+    .log-foot {
+        flex-direction: column;
+        justify-content: center;
+    }
+}

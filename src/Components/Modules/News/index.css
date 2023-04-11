@@ -1,0 +1,83 @@
+.cube-desing-long {
+  width: 90%;
+  background-image: url("../../Images/WallPaper/1080x1920/Fondo\ Negro\ 1080x1920.png");
+  background-color: black;
+  background-size: cover;
+  border: 2px solid #fa0101;
+  margin: auto;
+}
+
+.img-news-case {
+  width: 600px;
+  height: 500px;
+  display: flex;
+  background-color: black;
+  border: 2px solid #cd001a;
+  align-self: center;
+  margin-bottom: 30px;
+  margin-left: 0px;
+}
+.text-news {
+  padding: 0 60px;
+}
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.news-module .delete-case {
+  border: 2px solid #cd001a;
+  height: max-content;
+  margin-left: 10px;
+  outline: none;
+  background: none;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.news-module .delete-case:hover {
+  background: #3a0404;
+}
+
+.news-module .delete-icon {
+  height: auto;
+  width: 40px;
+  filter: invert(13%) sepia(97%) saturate(3910%) hue-rotate(344deg)
+    brightness(86%) contrast(114%);
+  padding: 2px;
+} 
+.news-lay{
+  align-self: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding:30px
+}
+
+.btn-link:hover{
+  transition: all 0.2s;
+  color: #fa0101;
+}
+@media screen and (max-width: 620px) {
+  .img-news-case {
+    width: 100%;
+    height: 250px;
+  }
+  .news-lay {
+    flex-direction: column;
+  }
+  .delete-case {
+    margin: 0;
+  }
+  .flex-row {
+    width: 300px;
+    margin: 0 60px 60px 0;
+    bottom: 30px;
+  }
+  .text-news {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+}

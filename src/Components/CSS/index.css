@@ -1,0 +1,127 @@
+* {color: #fefefe;scroll-behavior: smooth;}
+.cursor-pointer {cursor: pointer;}
+.list-none {list-style: none;}
+.w-100{width: 100%;}
+.o-hidden{overflow: hidden;}
+/*---------------------------Margin----------------------------*/
+.m-1 {margin: 1px;}.m-2 {margin: 2px;}
+.m-3 {margin: 3px;}.m-4 {margin: 4px;}
+.m-5 {margin: 5px;}.m-6 {margin: 6px;}
+.m-7 {margin: 7px;}.m-8 {margin: 8px;}
+.m-9 {margin: 9px;}.m-10 {margin: 10px;}
+.ml-1 {margin-left: 1px;}.ml-2 {margin-left: 2px;}
+.ml-3 {margin-left: 3px;}.ml-4 {margin-left: 4px;}
+.ml-5 {margin-left: 5px;}.ml-6 {margin-left: 6px;}
+.ml-7 {margin-left: 7px;}.ml-8 {margin-left: 8px;}
+.ml-20 {margin-left: 20px;}
+
+.ml-9 {margin-left: 9px;}.ml-10 {margin-left: 10px;}
+.mr-1 {margin-right: 1px;}.mr-2 {margin-right: 2px;}
+.mr-3 {margin-right: 3px;}.mr-4 {margin-right: 4px;}
+.mr-5 {margin-right: 5px;}.mr-6 {margin-right: 6px;}
+.mr-7 {margin-right: 7px;}.mr-8 {margin-right: 8px;}
+.mr-9 {margin-right: 9px;}.mr-10 {margin-right: 10px;}
+.mr-20 {margin-right: 20px;}
+
+.mt-1 {margin-top: 1px;}.mt-2 {margin-top: 2px;}
+.mt-3 {margin-top: 3px;}.mt-4 {margin-top: 4px;}
+.mt-5{margin-top: 5px;}.mt-6 {margin-top: 6px;}
+.mt-7 {margin-top: 7px;}.mt-8 {margin-top: 8px;}
+.mt-9 {margin-top: 8px;}.mt-10 {margin-top: 10px;}
+
+.mb-1 {margin-bottom: 1px;}.mb-2 {margin-bottom: 2px;}
+.mb-3 {margin-bottom: 3px;}.mb-4 {margin-bottom: 4px;}
+.mb-5{margin-bottom: 5px;}.mb-6 {margin-bottom: 6px;}
+.mb-7 {margin-bottom: 7px;}.mb-8 {margin-bottom: 8px;}
+.mb-9 {margin-bottom: 8px;}.mb-10 {margin-bottom: 10px;}
+/*---------------------------Margin----------------------------*/
+/*---------------------------Padding----------------------------*/
+.p-1 {padding: 1px;}.p-2{padding: 2px;}
+.p-3 {padding: 3px;}.p-4{padding: 4px;}
+.p-5 {padding: 5px;}.p-6{padding: 6px;}
+.p-7 {padding: 7px;}.p-8{padding: 8px;}
+.p-9 {padding: 9px;}.p-10{padding: 10px;}
+.pl-1{padding-left: 1px;}.pl-2{padding-left: 2px;}
+.pl-3{padding-left: 3px;}.pl-4{padding-left: 4px;}
+.pl-5{padding-left: 5px;}.pl-6{padding-left: 6px;}
+.pl-7{padding-left: 7px;}.pl-8{padding-left: 8px;}
+.pl-9{padding-left: 9px;}.pl-10{padding-left: 10px;}
+.pr-1{padding-right: 1px;}.pr-2{padding-right: 2px;}
+.pr-3{padding-right: 3px;}.pr-4{padding-right: 4px;}
+.pr-5{padding-right: 5px;}.pr-6{padding-right: 6px;}
+.pr-7{padding-right: 7px;}.pr-8{padding-right: 8px;}
+.pr-9{padding-right: 9px;}.pr-10{padding-right: 10px;}
+/*---------------------------Padding----------------------------*/
+/*---------------------------Display----------------------------*/
+.d-none{display: none;}
+.d-flex{display: flex;}.justify-center{justify-content: center;}
+.justify-between{justify-content: space-between;}.justify-around{justify-content: space-around;}
+.justify-start{justify-content: flex-start;}.justify-end {justify-content: flex-end;}
+.align-center{align-items: center;}.align-start{align-items: flex-start;}
+.align-end{align-items: flex-end;}.align-self-center{align-self: center;}
+.align-self-start{align-self: flex-start;}.align-self-end{align-self: flex-end;}
+.flex-column{flex-direction: column;}.flex-row{flex-direction: row;}
+/*---------------------------Display----------------------------*/
+/*---------------------------Pointer events----------------------------*/
+.pointer-events-none{pointer-events: none;}
+/*---------------------------Pointer events----------------------------*/
+
+@font-face {
+  font-family: 'Bebas Neue';
+  src: local('Bebas Neue'), url(../Fonts/BEBASKAI-REGULAR.OTF);
+}
+@font-face {
+  font-family: 'klavika';
+  src: local('klavika'), url(../Fonts/Fuentes/KLAVIKA-REGULARCOND.OTF);
+}
+@font-face {
+  font-family: 'Montserrat';
+  src: local('Montserrat'), url(../Fonts/Montserrat/Montserrat-Regular.ttf);
+}
+a{
+  text-decoration: none;  
+}
+li{
+   list-style: none; 
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+h2 {
+  font-family: 'klavika', cursive;
+}
+p{
+  margin: 0;
+  font-family: 'klavika', cursive;
+  font-size: 28px;
+  font-weight: 500;
+}
+pre{
+  margin: 0;
+  font-family: 'klavika', cursive;
+  font-size: 20px;
+  font-weight: 400;
+  white-space: pre-line;
+  margin: 0em 0px;
+  line-height: 22px;
+  line-break: strict;
+}
+
+::-moz-selection { /* Code for Firefox */
+  background: #fa0101;
+}
+
+::selection {
+  color: white;
+  background: #fa0101;
+}
+
+
+img {pointer-events: none;}
+input {outline: none;}

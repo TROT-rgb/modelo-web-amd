@@ -1,0 +1,68 @@
+.slide-option {
+    margin: 20px 0;
+    background-color: rgba(0, 0, 0, .3);
+}
+
+.highway-slider {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 150px;
+}
+
+.highway-barrier {
+    overflow: hidden;
+    position: relative;
+}
+
+.highway-lane {
+    display: flex;
+    height: 100%;
+    width: calc(180px * 24);
+}
+
+.highway-car {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    animation: translateinfinite 25s linear infinite;
+}
+
+.highway-car img {
+    width: auto;
+    height: 100%;
+    object-fit: contain;
+}
+
+@keyframes translateinfinite {
+    100% {
+        transform: translateX(calc(-180px * 12));
+    }
+}
+
+#infinite .highway-barrier {
+    box-shadow: 0 3px 10px -3px rgba(0, 0, 0, 0.3);
+}
+
+#infinite .highway-barrier::before,
+#infinite .highway-barrier::after {
+    content: " ";
+    position: absolute;
+    z-index: 9;
+    width: 180px;
+    height: 100%;
+}
+
+#infinite .highway-barrier::before {
+    top: 0;
+    left: 0;
+    background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+#infinite .highway-barrier::after {
+    top: 0;
+    right: 0;
+    background: linear-gradient(to left, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+}
